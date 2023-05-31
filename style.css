@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: peachpuff;
+  color: brown;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 200px;
+}
+.container div {
+  border: 1px solid black;
+}
+.squareOne {
+  width: 150px;
+  height: 150px;
+}
+.squareTwo {
+  width: 150px;
+  height: 150px;
+}
+.squareThree {
+  width: 150px;
+  height: 150px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background: none;
+  color: brown;
+  border: 1px dotted brown;
+}
